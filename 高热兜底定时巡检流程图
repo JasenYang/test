@@ -1,1 +1,92 @@
-<mxfile host="app.diagrams.net" modified="2020-12-06T08:59:19.600Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.10.9" etag="uBG6sqk65JzOuP-Z78KJ" type="github"><diagram id="-VMBVCNFKI183c8eSL0R">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-06T09:07:07.297Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="6dWIFfBgHhQaHEikmBF4" version="13.10.9" type="github">
+  <diagram id="-VMBVCNFKI183c8eSL0R" name="Page-1">
+    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-1" target="_WOTGlUJvKe7ZwM-xkn4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-1" value="Faas 平台的定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-5" value="6小时触发一次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-1" target="_WOTGlUJvKe7ZwM-xkn4-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="370" />
+              <mxPoint x="60" y="370" />
+              <mxPoint x="60" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-6" target="_WOTGlUJvKe7ZwM-xkn4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-12" value="获取线上服务的QPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_WOTGlUJvKe7ZwM-xkn4-10">
+          <mxGeometry x="-0.7965" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-6" value="Metrics 平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-7" target="_WOTGlUJvKe7ZwM-xkn4-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-13" value="获取兜底服务线上实例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_WOTGlUJvKe7ZwM-xkn4-11">
+          <mxGeometry x="-0.7297" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-7" value="TCE 平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="70" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-8" target="_WOTGlUJvKe7ZwM-xkn4-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-8" value="计算单实例需要抗的最大QPS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-14" target="_WOTGlUJvKe7ZwM-xkn4-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-22" value="压测结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_WOTGlUJvKe7ZwM-xkn4-19">
+          <mxGeometry x="-0.3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-14" value="固定QPS触发压测平台发压" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-18" target="_WOTGlUJvKe7ZwM-xkn4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-26" value="成功率 &amp;gt; 99.95%" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_WOTGlUJvKe7ZwM-xkn4-24">
+          <mxGeometry x="-0.175" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-18" value="收集成功率" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_WOTGlUJvKe7ZwM-xkn4-14" target="_WOTGlUJvKe7ZwM-xkn4-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="190" />
+              <mxPoint x="790" y="190" />
+              <mxPoint x="790" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-21" value="等待压测平台执行结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_WOTGlUJvKe7ZwM-xkn4-20">
+          <mxGeometry x="-0.2269" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_WOTGlUJvKe7ZwM-xkn4-23" value="RETURN" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
