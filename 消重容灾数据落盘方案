@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T08:50:29.171Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="6zXodlORE35adDMptkWO" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:50:41.667Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="M1I845aZZ3Wl3NJnxm80" version="14.4.3" type="github">
   <diagram id="2mSTecE2KDDcMji69iRZ" name="Page-1">
     <mxGraphModel dx="2253" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -303,39 +303,42 @@
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-122" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-370" y="-133.13" as="sourcePoint" />
-            <mxPoint x="-210" y="-133.13" as="targetPoint" />
+            <mxPoint x="-370" y="-203.13" as="sourcePoint" />
+            <mxPoint x="-210" y="-203.13" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-300" y="-133.13" />
+              <mxPoint x="-300" y="-203.13" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-123" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="-308.12" y="-40" width="33.75" height="160" as="geometry" />
+          <mxGeometry x="-308.12" y="-110" width="33.75" height="160" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-125" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-371.24" y="-79.5" as="sourcePoint" />
-            <mxPoint x="-211.24" y="-80" as="targetPoint" />
+            <mxPoint x="-371.24" y="-149.5" as="sourcePoint" />
+            <mxPoint x="-211.24" y="-150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-126" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-371.24" y="-19.999999999999993" as="sourcePoint" />
-            <mxPoint x="-211.24" y="-18.999999999999993" as="targetPoint" />
+            <mxPoint x="-371.24" y="-90" as="sourcePoint" />
+            <mxPoint x="-211.24" y="-89" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-127" value="消重容灾服务主流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-150" width="120" height="20" as="geometry" />
+          <mxGeometry x="-170" y="-220" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-129" value="消重数据写库失败处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-90" width="160" height="20" as="geometry" />
+          <mxGeometry x="-170" y="-160" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-130" value="收集请求写入的消重数据流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-30" width="160" height="20" as="geometry" />
+          <mxGeometry x="-170" y="-100" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-131" value="根据前一天的消重key键，从abase 读数据到 hive 流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="30" width="160" height="20" as="geometry" />
+          <mxGeometry x="-170" y="-40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-132" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;align=center;fillColor=#fff2cc;strokeColor=#d6b656;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-308.12" y="-40" width="33.75" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
