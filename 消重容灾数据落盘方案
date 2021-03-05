@@ -1,41 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T06:54:32.599Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="-vsUWvcYvPt0jUAuBpmo" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T07:03:48.746Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="D1cbzPeK6AgUC_pjnUYl" version="14.4.3" type="github">
   <diagram id="2mSTecE2KDDcMji69iRZ" name="Page-1">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LqS6VaoM4sbbaMME1ADx-1" value="ies.stream.impression" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="210" width="200" height="60" as="geometry" />
+          <mxGeometry x="90" y="220" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LqS6VaoM4sbbaMME1ADx-2" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-2" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="90" as="sourcePoint" />
-            <mxPoint x="190" y="200" as="targetPoint" />
+            <mxPoint x="190" y="100" as="sourcePoint" />
+            <mxPoint x="190" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-3" value="AddImpr, BatchAddImpr" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="120" width="40" height="20" as="geometry" />
+          <mxGeometry x="230" y="130" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-6" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="189.5" y="285" as="sourcePoint" />
-            <mxPoint x="190" y="345" as="targetPoint" />
+            <mxPoint x="195" y="320" as="sourcePoint" />
+            <mxPoint x="195" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-7" value="&lt;span&gt;abase_ies_impression&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="95" y="360" width="190" height="100" as="geometry" />
+          <mxGeometry x="100" y="485" width="190" height="100" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-8" value="&lt;div&gt;&lt;span&gt;MQ, 发送 uid, utype, channle,imprType&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="400" y="285" width="270" height="65" as="geometry" />
+          <mxGeometry x="440" y="355" width="270" height="65" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-9" value="写入成功" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="200" y="300" width="70" height="20" as="geometry" />
+          <mxGeometry x="217.5" y="380" width="65" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="LqS6VaoM4sbbaMME1ADx-12" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-12" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="309.5" as="sourcePoint" />
-            <mxPoint x="380" y="309.5" as="targetPoint" />
+            <mxPoint x="304" y="387" as="sourcePoint" />
+            <mxPoint x="414" y="387" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-14" value="" style="shape=flexArrow;endArrow=classic;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="304" y="249.5" as="sourcePoint" />
+            <mxPoint x="414" y="249.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-15" value="写入失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="220" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-16" value="&lt;div&gt;&lt;span&gt;MQ, 发送 uid, utype, channle,imprType,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="215" width="270" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
