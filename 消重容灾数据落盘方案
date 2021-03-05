@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T07:03:48.746Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="D1cbzPeK6AgUC_pjnUYl" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T07:04:18.508Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="JlLwl3D-smkML9J3-tb7" version="14.4.3" type="github">
   <diagram id="2mSTecE2KDDcMji69iRZ" name="Page-1">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,8 +46,8 @@
         <mxCell id="LqS6VaoM4sbbaMME1ADx-15" value="写入失败" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="310" y="220" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LqS6VaoM4sbbaMME1ADx-16" value="&lt;div&gt;&lt;span&gt;MQ, 发送 uid, utype, channle,imprType,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=left;" vertex="1" parent="1">
-          <mxGeometry x="430" y="215" width="270" height="65" as="geometry" />
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-16" value="&lt;div&gt;&lt;span&gt;MQ, 发送 uid, utype, channle,imprType, itemList&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=left;" vertex="1" parent="1">
+          <mxGeometry x="430" y="215" width="330" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
