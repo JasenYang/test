@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T08:49:00.601Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="c59x_UAQyZyID1zp7Nkk" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:49:55.139Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="Yv8vXwOo0GFlMwZFVLwf" version="14.4.3" type="github">
   <diagram id="2mSTecE2KDDcMji69iRZ" name="Page-1">
     <mxGraphModel dx="2253" dy="1995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -330,6 +330,9 @@
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-129" value="消重数据写库失败处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="-170" y="-90" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-130" value="收集请求写入的消重数据流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-30" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
