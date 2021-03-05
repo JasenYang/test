@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T08:43:46.484Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="9aD6INrEHmRVhxEcyoQV" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T08:45:25.508Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="gjpbJCz2JwqR2Ernc2Te" version="14.4.3" type="github">
   <diagram id="2mSTecE2KDDcMji69iRZ" name="Page-1">
     <mxGraphModel dx="2253" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -298,8 +298,8 @@
             <mxPoint x="-400" y="1000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LqS6VaoM4sbbaMME1ADx-121" value="收集请求的数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="320" y="225.5" width="110" height="17" as="geometry" />
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-121" value="收集请求数据，无论写库成功、失败都发个消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="300" y="212.5" width="140" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
