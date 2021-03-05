@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T07:42:51.177Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="APB3KIAVlfXyL7cVOeut" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T07:44:05.427Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="2j_mFrxhQ4fqke4ryrtN" version="14.4.3" type="github">
   <diagram id="2mSTecE2KDDcMji69iRZ" name="Page-1">
     <mxGraphModel dx="1426" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,11 +49,8 @@
         <mxCell id="LqS6VaoM4sbbaMME1ADx-16" value="&lt;div&gt;&lt;span&gt;MQ, 发送 uid, utype, channle,imprType, itemList&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="430" y="215" width="330" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="LqS6VaoM4sbbaMME1ADx-18" value="离线HIVE表&lt;br&gt;【写入abase成功的Key】" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="482.5" y="560" width="185" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="LqS6VaoM4sbbaMME1ADx-19" value="定时脚本消费MQ，将数据整理落盘到HIVE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1101" y="545" width="280" height="80" as="geometry" />
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-18" value="离线HIVE表，按小时分区&lt;br&gt;【记录成功写入 abase 的key】" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="762.5" y="570" width="207.5" height="160" as="geometry" />
         </mxCell>
         <mxCell id="LqS6VaoM4sbbaMME1ADx-22" value="// json 格式&lt;br&gt;{&lt;br&gt;&amp;nbsp; uid,&lt;br&gt;&amp;nbsp; utype,&lt;br&gt;&amp;nbsp; channleId,&lt;br&gt;&amp;nbsp; imprType&lt;br&gt;}" style="shape=note;size=20;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="460" y="325" width="100" height="125" as="geometry" />
@@ -63,6 +60,9 @@
             <mxPoint x="590" y="387" as="sourcePoint" />
             <mxPoint x="700" y="387" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="LqS6VaoM4sbbaMME1ADx-24" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;align=center;arrowWidth=0.2;arrowSize=0.23333333333333334;" vertex="1" parent="1">
+          <mxGeometry x="835" y="430" width="40" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
